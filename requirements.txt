@@ -1,0 +1,7 @@
+requests>=2.25.0
+
+# Windows语音支持（可选，用于语音报警功能）
+pywin32>=227; sys_platform == "win32"
+
+# Linux语音支持（可选，用于语音报警功能）
+# espeak>=1.48; sys_platform == "linux"
